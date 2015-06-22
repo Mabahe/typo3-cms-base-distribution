@@ -1,0 +1,52 @@
+{
+  "name": "typo3/cms-base-distribution",
+  "description" : "TYPO3 CMS Base Distribution",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.typo3.org/"
+    }
+  ],
+  "config": {
+    "vendor-dir": "Packages/Libraries",
+    "bin-dir": "bin"
+  },
+  "require": {
+    "typo3/cms": "7.3.*"
+  },
+  "require-dev": {
+    "mikey179/vfsStream": "1.4.*@dev",
+    "phpunit/phpunit": "~4.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TYPO3\\CMS\\About\\": "typo3_src/typo3/sysext/about/Classes/",
+      "TYPO3\\CMS\\Aboutmodules\\": "typo3_src/typo3/sysext/aboutmodules/Classes/",
+      "TYPO3\\CMS\\Belog\\": "typo3_src/typo3/sysext/belog/Classes/",
+      "TYPO3\\CMS\\Beuser\\": "typo3_src/typo3/sysext/beuser/Classes/",
+      "TYPO3\\CMS\\ContextHelp\\": "typo3_src/typo3/sysext/context_help/Classes/",
+      "TYPO3\\CMS\\CssStyledContent\\": "typo3_src/typo3/sysext/css_styled_content/Classes/",
+      "TYPO3\\CMS\\Documentation\\": "typo3_src/typo3/sysext/documentation/Classes/",
+      "TYPO3\\CMS\\Felogin\\": "typo3_src/typo3/sysext/felogin/Classes/",
+      "TYPO3\\CMS\\Filelist\\": "typo3_src/typo3/sysext/filelist/Classes/",
+      "TYPO3\\CMS\\Form\\": "typo3_src/typo3/sysext/form/Classes/",
+      "TYPO3\\CMS\\Func\\": "typo3_src/typo3/sysext/func/Classes/",
+      "TYPO3\\CMS\\Impexp\\": "typo3_src/typo3/sysext/impexp/Classes/",
+      "TYPO3\\CMS\\Info\\": "typo3_src/typo3/sysext/info/Classes/",
+      "TYPO3\\CMS\\InfoPagetsconfig\\": "typo3_src/typo3/sysext/info_pagetsconfig/Classes/",
+      "TYPO3\\CMS\\Lowlevel\\": "typo3_src/typo3/sysext/lowlevel/Classes/",
+      "TYPO3\\CMS\\Reports\\": "typo3_src/typo3/sysext/reports/Classes/",
+      "TYPO3\\CMS\\Rsaauth\\": "typo3_src/typo3/sysext/rsaauth/Classes/",
+      "TYPO3\\CMS\\Rtehtmlarea\\": "typo3_src/typo3/sysext/rtehtmlarea/Classes/",
+      "TYPO3\\CMS\\Setup\\": "typo3_src/typo3/sysext/setup/Classes/",
+      "TYPO3\\CMS\\SysNote\\": "typo3_src/typo3/sysext/sys_note/Classes/",
+      "TYPO3\\CMS\\T3editor\\": "typo3_src/typo3/sysext/t3editor/Classes/",
+      "TYPO3\\CMS\\T3skin\\": "typo3_src/typo3/sysext/t3skin/Classes/",
+      "TYPO3\\CMS\\Tstemplate\\": "typo3_src/typo3/sysext/tstemplate/Classes/",
+      "TYPO3\\CMS\\Viewpage\\": "typo3_src/typo3/sysext/viewpage/Classes/",
+      "TYPO3\\CMS\\WizardCrpages\\": "typo3_src/typo3/sysext/wizard_crpages/Classes/",
+      "TYPO3\\CMS\\WizardSortpages\\": "typo3_src/typo3/sysext/wizard_sortpages/Classes/"
+    }
+  }
+}
